@@ -2,7 +2,7 @@ h1. Implementing the JayCut Video Editor with in .NET
 
 Getting started is super simple!
 
-* Download:http://github.com/mattiasjub/jaycut-dotnet-example/zipball/master the example
+* "Download":http://github.com/mattiasjub/jaycut-dotnet-example/zipball/master the example
 * Open it in Visual Studio
 * Paste in your API key, secret and sitename from your API signup welcome email into Default.aspx
 * Press F5!
