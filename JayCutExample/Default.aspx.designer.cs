@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace JayCut {
+namespace JayCutExample {
     
     
     public partial class Default {

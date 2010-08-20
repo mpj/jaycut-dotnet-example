@@ -15,7 +15,7 @@ namespace JayCutExample
                 // details below.
                 JayCutApiKey = "YOURAPIKEY",
                 JayCutApiSecret = "YOURSECRET",
-                JayCutUriAuthority = "mycutedogvideosite.api.jaycut.com" // Unless you are using CNAME domain aliasing, this will be YOURSITENAME.api.jaycut.com
+                JayCutUriAuthority = "YOURSITENAME.api.jaycut.com" 
             };
 
             JayCutAuthority = jayCutter.JayCutUriAuthority;
@@ -24,9 +24,7 @@ namespace JayCutExample
             // And this is how you would integrate it with your own community:
             // JayCutLoginUri = jayCutter.JayCutLogUriForUser(YourUserSystem.GetCurrentlyLoggedInUserID());
             
-
-           
-
+            
         }
     }
 

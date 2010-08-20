@@ -74,9 +74,6 @@ namespace JayCutExample
             return GetUri(commandPath, Method.PUT, true);
         }
 
-
-
-
         #region Internal helper methods
 
         /// <summary>
@@ -89,7 +86,6 @@ namespace JayCutExample
             var unixRef = new DateTime(1970, 1, 1, 0, 0, 0);
             return (dt.Ticks - unixRef.Ticks) / 10000000;
         }
-
 
         /// <summary>
         /// Calculates SHA1 sigurature from a string, 
