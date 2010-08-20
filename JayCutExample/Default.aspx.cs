@@ -1,34 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Globalization;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
-namespace JayCut
+namespace JayCutExample
 {
     public partial class Default : System.Web.UI.Page
     {
         protected string JayCutAuthority { get; set; }
         protected string JayCutLoginUri { get; set; }
     
-        protected void Page_Init(object sender, EventArgs e)
-        {
-            
-        }
-
         protected void Page_Load(object sender, EventArgs e)
         {
             var jayCutter = new JayCutter
             {
-                JayCutApiKey = "FQplNhQvR",
-                JayCutApiSecret = "iMvNY53FSBTb82vQctkbMtPzp117xVTsHzNsRNB7wVgHzeA8RlpVQ2Xniyu1FmcM",
-                JayCutUriAuthority = "mpj.api.jaycut.com"
+                // Check your API Signup welcome email for the 
+                // details below.
+                JayCutApiKey = "YOURAPIKEY",
+                JayCutApiSecret = "YOURSECRET",
+                JayCutUriAuthority = "mycutedogvideosite.api.jaycut.com" // Unless you are using CNAME domain aliasing, this will be YOURSITENAME.api.jaycut.com
             };
+
             JayCutAuthority = jayCutter.JayCutUriAuthority;
             JayCutLoginUri = jayCutter.JayCutLoginUriSimple();
             

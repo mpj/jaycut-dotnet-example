@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace JayCut
+namespace JayCutExample
 {
     public enum Method
     {   
