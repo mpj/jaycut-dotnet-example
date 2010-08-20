@@ -6,5 +6,3 @@ Getting started is super simple!
 * Open it in Visual Studio
 * Paste in your API key, secret and sitename from your API signup welcome email into Default.aspx
 * Press F5!
-
-
